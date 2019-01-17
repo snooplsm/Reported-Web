@@ -411,8 +411,6 @@ app.use('/submit', (req, res) => {
           locationNumber: 1,
           latitude: latitude.toString(),
           longitude: longitude.toString(),
-          latitude1: latitude,
-          longitude1: longitude,
           loc1_address: formatted_address,
           timeofreport,
           timeofreported,
